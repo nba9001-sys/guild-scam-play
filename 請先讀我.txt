@@ -1,0 +1,29 @@
+網頁試玩版 v1.92.0 —— 更新到 guild-scam-play
+============================================
+
+這個資料夾就是 https://github.com/nba9001-sys/guild-scam-play 的內容。
+我已經把裡面的遊戲檔案換成 v1.92.0 了，你只要推上去。
+
+
+怎麼更新
+--------
+  雙擊 **push_to_play_repo.bat** → 一路 Enter。
+  推完等一兩分鐘，網址就是新版：
+  **https://nba9001-sys.github.io/guild-scam-play/**
+
+
+這一版換了什麼
+--------------
+  換的是 index.pck 與 index.html 裡那一個檔案大小的數字。
+  index.wasm、index.js 與三張圖示跟上一版一模一樣。
+
+  內容是 D-318：
+  1. 版權頁填好了（工作室名稱統一成 Expect Games，
+     並補上 Stability AI 授權要求的標註）
+  2. ⚠️ 還剩一行紅字：去背用的 RMBG-2.0 是 CC BY-NC 4.0（只限非商業）
+
+
+本機先看一眼
+------------
+  雙擊 start_local_test.bat → 瀏覽器開 http://localhost:8000
+  設定 →「版權」看一眼。
